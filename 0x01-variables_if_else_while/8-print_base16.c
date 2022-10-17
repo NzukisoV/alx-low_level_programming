@@ -1,6 +1,5 @@
-#include <stdlib.h>
-#include <time.h>
 #include <stdio.h>
+
 /**
  * main - prints all the numbers of base 16
  * followed by a new line
