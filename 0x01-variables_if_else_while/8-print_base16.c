@@ -1,17 +1,22 @@
 #include <stdio.h>
 /**
- * main - Entry point
- * Return: Always 0
+ * main - prints all the numbers of base 16
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int d;
-	char low;
+	int n;
+	char char;
 
-	for (d = '0';  <= '9'; d++)
-		putchar (d);
-	for (d = 'a'; low <= 'f'; low++)
-		putchar(low);
+	for (n = 48; n < 58; n++)
+	{
+		putchar(n);
+	}
+	for (ch = 'a'; ch <= 'f'; ch++)
+	{
+		putchar(ch);
+	}
 	putchar('\n');
 	return (0);
 }
